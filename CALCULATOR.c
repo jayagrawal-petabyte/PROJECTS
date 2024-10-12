@@ -5,13 +5,13 @@ int main()
 {
     int a,b;
     char op;
-    printf("Enter 2 numbers to operate on");
+    printf("Enter 2 numbers to operate on\n");
     scanf("%d %d", &a, &b);
 
-    printf("Enter the operator");
-    scanf("%c",&op);
-  for(;;)
-  {
+    printf("Enter the operator\n");
+    scanf(" %c",&op);
+    
+  
     switch(op)
     {
         case '+':
@@ -34,6 +34,5 @@ int main()
         printf("Enter valid operator");
         break;
     }
-  }
   return 0;
 }
